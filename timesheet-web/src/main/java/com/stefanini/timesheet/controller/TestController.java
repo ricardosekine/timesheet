@@ -1,12 +1,15 @@
-package com.stefanini.timesheet;
+package com.stefanini.timesheet.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import com.stefanini.timesheet.service.TestService;
+
+
 @Component
 @Scope("session")
-public class TestBean {
+public class TestController {
 	
 	@Autowired
 	TestService testService;

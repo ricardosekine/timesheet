@@ -1,4 +1,4 @@
-package com.stefanini.timesheet;
+package com.stefanini.timesheet.service;
 
 import org.springframework.stereotype.Service;
 
