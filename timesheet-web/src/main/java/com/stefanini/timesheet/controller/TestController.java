@@ -8,7 +8,7 @@ import com.stefanini.timesheet.service.TestService;
 
 
 @Component
-@Scope("session")
+@Scope("view")
 public class TestController {
 	
 	@Autowired
